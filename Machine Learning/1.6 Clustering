@@ -1,0 +1,12 @@
+Clustering groups data based solely on feature similarity — no labels required.
+
+K-Means is a widely used algorithm that:
+- Initializes k random centroids.
+- Assigns points to the nearest centroid.
+- Recalculates centroids based on current cluster members.
+- Repeats until stable.
+
+Evaluation is not based on accuracy (no labels), but on cluster compactness and separation using metrics like:
+- Silhouette Score (ranges from -1 to 1)
+- Average/Max Distance to Centroid
+- Inertia (within-cluster sum of squares)
