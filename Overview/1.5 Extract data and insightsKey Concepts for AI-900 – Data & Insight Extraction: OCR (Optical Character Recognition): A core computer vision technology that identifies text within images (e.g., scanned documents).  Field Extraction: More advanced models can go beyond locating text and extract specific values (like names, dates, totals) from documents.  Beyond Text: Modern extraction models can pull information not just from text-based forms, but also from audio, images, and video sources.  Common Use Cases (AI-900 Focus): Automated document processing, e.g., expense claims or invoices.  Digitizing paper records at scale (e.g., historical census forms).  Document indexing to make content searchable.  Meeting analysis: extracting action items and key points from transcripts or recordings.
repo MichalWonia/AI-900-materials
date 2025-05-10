@@ -1,0 +1,15 @@
+OCR (Optical Character Recognition):
+A core computer vision technology that identifies text within images (e.g., scanned documents).
+
+Field Extraction:
+More advanced models can go beyond locating text and extract specific values (like names, dates, totals) from documents.
+
+Beyond Text:
+Modern extraction models can pull information not just from text-based forms, but also from audio, images, and video sources.
+
+Common Use Cases:
+- Automated document processing, e.g., expense claims or invoices.
+- Digitizing paper records at scale (e.g., historical census forms).
+- Document indexing to make content searchable.
+- Meeting analysis: extracting action items and key points from transcripts or recordings.
+
