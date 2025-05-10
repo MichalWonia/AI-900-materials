@@ -1,0 +1,25 @@
+1. Literal vs. Semantic Translation:
+- Literal Translation:
+  - Direct word-for-word translation.
+  - Issues arise when there's no equivalent word in the target language or when the context is lost.
+  - Example: "I am hungry" (literal translation) may not convey the emotional tone if translated word-for-word in some languages.
+
+Semantic Translation:
+  - Focuses on the meaning and context rather than just words.
+  - Ensures that idioms, grammar rules, formal vs informal tone, and colloquialisms are accurately interpreted.
+  - Example: Translating a phrase that carries cultural or emotional meaning (e.g., a joke or metaphor) so that it makes sense in the target language.
+
+2. Text and Speech Translation:
+- Text Translation:
+  - Used for translating written content such as documents, web pages, emails, and social media posts.
+  - Example: Google Translate can translate entire web pages in real time or when you post something on social media.
+
+- Speech Translation:
+  - Involves spoken language translation, where speech can be translated into another language,
+  either directly or through an intermediary (e.g., speech-to-text to text translation, 
+  and then text-to-speech for another language).
+  - Example: A real-time translation app allowing someone speaking English to converse with 
+  someone speaking French by translating their speech instantly.
+
+By understanding these concepts, machine translation (like Azure AI Translator) can offer more accurate translations, 
+overcoming challenges like literal translation limitations.
