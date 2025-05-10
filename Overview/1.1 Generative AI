@@ -6,6 +6,9 @@ Generative AI relies on language models trained on large datasets (often from pu
 
 Semantic Understanding:
 These models understand the relationships between words, enabling them to produce meaningful and coherent responses.
+Generative AI models encapsulate semantic relationships between language elements 
+(that's a fancy way of saying that the models "know" how words relate to one another), 
+and that's what enables them to generate a meaningful sequence of text.
 
 Large vs. Small Language Models:
 - LLMs: Trained on massive datasets; powerful and general-purpose, but costly.
