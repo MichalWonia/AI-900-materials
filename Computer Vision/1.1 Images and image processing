@@ -1,0 +1,38 @@
+🖼️ What Is an Image to a Computer?
+An image is essentially data — more specifically, a 2D or 3D array of pixel values.
+
+Grayscale images:
+Just one 2D array of numbers from 0 (black) to 255 (white).
+
+Color images:
+Represented using three channels (Red, Green, Blue), each a separate 2D array.
+
+Example:
+A purple pixel might be: Red: 150, Green: 0, Blue: 255
+A yellow pixel might be: Red: 255, Green: 255, Blue: 0
+
+🧪 What Are Filters?
+Filters (or kernels) are small matrices used to transform an image by sliding (convolving) over it.
+
+Example kernel (for edge detection):
+
+-1 -1 -1
+-1  8 -1
+-1 -1 -1
+
+This kernel highlights the edges in an image by computing the difference in brightness between a pixel and its neighbors.
+
+🔁 How Filtering Works: Convolution
+- Overlay the kernel on a part of the image.
+- Multiply each kernel value by the corresponding pixel.
+- Add the results to get the new pixel value.
+- Move the kernel across the image and repeat.
+
+➡️ This is called convolution.
+
+✨ Types of Filters and Effects
+- Edge Detection: Laplace, Sobel
+- Blur: Gaussian blur
+- Sharpening
+- Embossing
+- Color manipulation: Inversion, grayscale conversion, etc.
