@@ -1,0 +1,18 @@
+Definition of Generative AI:
+Generative AI is a branch of AI that can generate new content, such as text, images, video, code, etc.
+
+Language Models:
+Generative AI relies on language models trained on large datasets (often from public sources) to understand and generate human-like content.
+
+Semantic Understanding:
+These models understand the relationships between words, enabling them to produce meaningful and coherent responses.
+
+Large vs. Small Language Models:
+- LLMs: Trained on massive datasets; powerful and general-purpose, but costly.
+- SLMs: Trained on smaller datasets; cost-efficient and good for specific tasks.
+
+Use Cases of Generative AI:
+- Chatbots and AI assistants.
+- Content creation (e.g., drafting documents).
+- Language translation.
+- Summarization and explanation of complex texts.
