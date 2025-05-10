@@ -1,0 +1,13 @@
+- Binary classification predicts one of two outcomes (like 0 or 1).
+- Logistic regression is commonly used to model probabilities between 0 and 1.
+- Predictions are compared to a threshold (usually 0.5) to determine class labels.
+- The model's performance is evaluated using metrics derived from the confusion matrix:
+  - Accuracy = Overall correctness.
+  - Recall = Sensitivity to actual positives.
+  - Precision = Correctness of positive predictions.
+  - F1-score = Balance of precision and recall.
+  - AUC/ROC = Performance across all thresholds.
+
+Each metric tells a different story, and which one you focus on depends on the application. 
+For example, in healthcare scenarios like diabetes prediction, recall may be more important 
+than accuracy since missing a positive case can have serious consequences.
