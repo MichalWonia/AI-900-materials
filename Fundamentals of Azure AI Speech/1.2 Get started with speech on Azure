@@ -1,0 +1,28 @@
+🧠 Azure AI Speech Capabilities
+1. Speech to Text (STT)
+Converts spoken audio into written text.
+
+✅ Real-Time Transcription:
+- Input: Microphone or live audio stream.
+- Use case: Presentations, meetings, voice-controlled apps.
+- Streams audio to Azure and returns transcribed text in real-time.
+
+✅ Batch Transcription:
+- Input: Pre-recorded audio files (e.g., from Azure Storage via SAS URI).
+- Use case: Transcribing long recordings asynchronously.
+- Not instant; processes on a best-effort basis.
+
+🛠️ Customization:
+- Acoustic, language, and pronunciation models can be customized if default models don’t meet your needs.
+
+2. Text to Speech (TTS)
+Converts text into spoken audio.
+
+✅ Audio Output:
+- Can be played back in-app or saved to a file.
+- Choose from neural voices (for natural tone) or standard voices.
+- Supports multiple languages and accents.
+
+🗣️ Voice Customization:
+- Select from prebuilt voices or create your own custom voice for branding or specific use cases.
+
