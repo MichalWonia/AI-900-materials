@@ -1,0 +1,43 @@
+🧠 CNNs: Convolutional Neural Networks
+CNNs are deep learning models specifically designed for analyzing visual data.
+
+How CNNs work:
+- Input image (with known labels during training)
+- Convolutional layers apply filters → produce feature maps
+- Flattening of feature maps → single array
+- Fully connected neural network processes features
+- Softmax output gives probabilities (e.g., [0.1, 0.8, 0.1])
+- Training loop adjusts weights using loss calculations
+
+🔁 Over time, CNNs learn optimal filters to detect features like edges, shapes, and patterns.
+
+🧰 Applications of CNNs
+- Image classification (e.g., apple vs banana)
+- Object detection (e.g., bounding boxes around items)
+- Face recognition
+- Medical imaging analysis
+
+🔄 Transformers in Vision
+- Originally used in natural language processing, transformers are now being adapted for vision tasks.
+
+Why transformers?
+- Use attention mechanisms to understand global relationships in data
+- Work well with large datasets
+
+🧩 Multi-Modal Models
+These models understand both images and text by learning from captioned images (like image + sentence).
+
+Example: Microsoft Florence
+- Pretrained with millions of captioned images
+- Acts as a foundation model
+- Can be fine-tuned for:
+  - Classification
+  - Object detection
+  - Image captioning
+  - Tagging
+
+🌍 Why This Matters
+With multi-modal and foundation models:
+- You can build more versatile and context-aware AI systems.
+- Vision AI becomes more accessible and transferable across tasks.
+
