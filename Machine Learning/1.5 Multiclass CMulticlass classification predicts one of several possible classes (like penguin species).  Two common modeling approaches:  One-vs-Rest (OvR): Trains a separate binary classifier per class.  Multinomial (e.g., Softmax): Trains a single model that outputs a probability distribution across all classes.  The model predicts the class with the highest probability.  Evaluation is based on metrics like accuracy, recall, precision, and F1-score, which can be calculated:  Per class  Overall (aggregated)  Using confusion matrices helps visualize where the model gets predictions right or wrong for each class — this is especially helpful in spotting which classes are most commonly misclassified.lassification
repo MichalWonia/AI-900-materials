@@ -1,0 +1,14 @@
+Multiclass classification predicts one of several possible classes (like penguin species).
+
+Two common modeling approaches:
+- One-vs-Rest (OvR): Trains a separate binary classifier per class.
+- Multinomial (e.g., Softmax): Trains a single model that outputs a probability distribution across all classes.
+
+The model predicts the class with the highest probability.
+
+Evaluation is based on metrics like accuracy, recall, precision, and F1-score, which can be calculated:
+- Per class
+- Overall (aggregated)
+
+Using confusion matrices helps visualize where the model gets predictions right or wrong for each class — 
+this is especially helpful in spotting which classes are most commonly misclassified.
