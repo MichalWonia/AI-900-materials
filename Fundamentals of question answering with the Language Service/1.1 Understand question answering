@@ -1,0 +1,25 @@
+🤖 What is Question Answering?
+Question Answering is an Azure AI Language feature that enables natural, 
+conversational interactions by allowing applications (like bots) to respond 
+to user questions automatically using natural language understanding.
+
+🟦 Key Use Cases:
+- Customer support bots on websites or social media
+- 24/7 self-service help desks
+- Internal knowledge base assistants
+
+🧩 Key Capabilities:
+- Responds to natural language questions
+- Can handle multi-turn conversations (follow-up questions)
+- Returns direct answers or suggests options
+- Escalates to a human agent if the query is too complex
+
+✅ Benefits:
+- Fast and accurate responses
+- Reduces pressure on live support teams
+- Scalable across multiple platforms
+- Improves user satisfaction through availability and convenience
+
+Next steps usually involve creating a question answering project using Azure resources, 
+where you upload or connect a knowledge base (like FAQs or documentation) and let the AI 
+model index it for answering questions.
