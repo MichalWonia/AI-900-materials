@@ -1,0 +1,25 @@
+Two Types of Azure AI Resources
+Multi-Service Resource
+  - Grants access to multiple AI services (like Language, Vision, Speech, etc.) with one key and endpoint.
+  - Ideal for: Exploring AI broadly or building apps that use several AI tools.
+  - Billing: All services are grouped into one billing resource.
+
+Single-Service Resource
+  - Access to just one Azure AI service (e.g., Speech, Language, Face, etc.).
+  - Ideal for: Using only one AI capability or tracking costs separately.
+  - Billing: Each resource has its own key, endpoint, and cost tracking.
+
+🧭 How to Create a Resource in the Azure Portal
+- Log in to the Azure Portal: https://portal.azure.com
+- Click: "Create a resource"
+- Search:
+  - For multi-service → search “Azure AI services”
+  - For single-service → search specific name (e.g., “Language”, “Speech”, “Content Safety”)
+- Configure:
+  - Select subscription
+  - Choose or create a resource group
+  - Pick the region
+  - Enter a unique name
+  - Select a pricing tier (most offer a free tier)
+
+By creating these resources, you’re provisioning access to powerful AI tools — making them callable via API using generated keys and endpoints.
