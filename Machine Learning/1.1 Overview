@@ -1,0 +1,26 @@
+Definition of Machine Learning:
+- ML is about using historical data to predict future or unknown outcomes.
+- The model learns a relationship between input features (x) and output labels (y).
+
+ML as a Function:
+- The trained model becomes a function:
+y = f(x)
+where x = features, y = label, and ŷ (y-hat) = predicted label.
+
+Training vs. Inferencing:
+- Training: Use labeled data to learn a function.
+- Inferencing: Use the function to predict outputs for new, unseen inputs.
+
+Features and Labels:
+- Features (x): Input attributes (e.g., temperature, weight, flipper length).
+- Label (y): What you're trying to predict (e.g., sales, disease risk, penguin species).
+
+Example Scenarios:
+- Retail: Predicting daily ice cream sales based on weather (features = weather data; label = sales count).
+- Healthcare: Predicting diabetes risk from clinical measurements (features = health stats; label = risk outcome).
+- Wildlife Research: Identifying penguin species from physical traits (features = flipper/bill size; label = species).
+
+Mathematical Representation (AI-900 Simplified):
+- Input vector: x = [x1, x2, x3, …]
+- Output: ŷ = f(x)
+- Goal: Learn a function f that maps x to y
