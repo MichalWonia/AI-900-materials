@@ -1,0 +1,41 @@
+🚀 Overview
+Azure CLU helps you build conversational apps that can:
+- Understand user intent
+- Extract meaningful data
+- Power bots and virtual agents
+
+🏗️ Key Components
+1. Azure Resources
+- Azure AI Language Resource: Used for both authoring and prediction
+- Azure AI Services Resource: Used for prediction only
+
+Use separate resources to better manage and track usage for training vs deployment.
+
+✍️ Authoring a CLU Model
+To create a model, define:
+
+Element	    Purpose
+Intent	    What the user wants (e.g., "TurnOn")
+Entity	    Info in the utterance (e.g., "fan")
+Utterance	  Sample phrase (e.g., "Turn on the fan")
+
+- Use Language Studio (a web-based tool) to author models visually
+- Optionally use prebuilt domains to save time
+
+🧠 Training and Testing
+- Train the model with your utterances
+- Use test inputs to validate:
+  - Is the intent correct?
+  - Are the entities recognized?
+- Update and retrain as needed
+
+🔮 Prediction (Publishing)
+Once the model works well:
+- Publish it to a prediction resource
+- Client apps send user inputs to the model’s endpoint
+- The model returns:
+  - Intent name
+  - Entities (with values)
+Your app can then use these to decide how to respond.
+
+Azure CLU gives you powerful tools to build conversational agents without deep ML expertise.
