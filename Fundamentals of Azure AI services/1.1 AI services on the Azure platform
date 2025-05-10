@@ -1,0 +1,32 @@
+What Are Azure AI Services?
+Azure AI services are ready-made, cloud-based AI tools that developers can plug into apps using APIs — no need to build models from scratch.
+
+🧰 Examples of Azure AI Services
+- Azure OpenAI Service: Access to GPT models (e.g., GPT-4) for generative AI.
+- Azure AI Content Safety: Detects harmful or offensive content in text/images.
+- Azure AI Language: Summarizes text, classifies documents, extracts key phrases.
+- Azure AI Speech: Converts speech ↔ text, generates natural voice audio.
+- Azure AI Vision: Image and video analysis; supports customization for specific use cases.
+- Immersive Reader: Supports accessibility and learning by adapting content presentation.
+
+🚀 Why Use Azure AI Services?
+1. Prebuilt & Ready to Use
+- No data science team needed — just connect and go.
+
+2. Accessed via APIs
+- Simple to integrate into apps (via REST, SDKs, or automation tools).
+
+3. Available & Secure on Azure
+- Managed like any other Azure service (reliable, scalable, secure).
+
+🧠 Customization Options
+Some services allow fine-tuning or customization:
+- Vision (e.g., for sports analytics)
+- Speech (e.g., for custom vocabularies)
+- OpenAI (e.g., prompt engineering, embeddings)
+
+🛡️ Security & Responsible AI
+- Microsoft follows six Responsible AI principles to ensure safe and ethical use.
+- Certain services may be restricted to prevent misuse (e.g., facial recognition).
+
+Azure AI lets you bring the power of machine learning into your app without needing to build the model yourself.
