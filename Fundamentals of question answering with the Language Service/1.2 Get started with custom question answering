@@ -1,0 +1,23 @@
+💡 What is Custom Question Answering?
+Custom question answering is a feature in Azure AI Language 
+that allows you to build a searchable knowledge base of question-and-answer (Q&A) pairs.
+Users can ask natural language questions, and the service 
+returns the best matching answer—even if the question is phrased differently.
+
+🧰 How to Build a Custom Q&A Project
+- Provision a Language resource in your Azure subscription.
+- Use Azure AI Language Studio for a low-code approach (or use the REST API/SDK if coding is preferred).
+
+🛠️ Creating Your Knowledge Base
+You can:
+- Import from an FAQ document or web page.
+- Manually add questions and answers.
+- Use both methods to enhance coverage.
+- Add alternate phrasings to increase match accuracy (e.g., “Where is your head office?” vs. “What is your head office location?”).
+
+🔍 Testing the Q&A System
+- After building your Q&A pairs, save your project.
+- Azure automatically applies NLP models to understand question variations.
+- Use the test interface in Language Studio to simulate real queries and validate the system’s responses.
+
+This setup is ideal for building chatbots, self-service portals, or any system that needs a smart, searchable Q&A interface.
