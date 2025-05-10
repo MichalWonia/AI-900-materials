@@ -1,0 +1,21 @@
+What is Deep Learning?
+- A specialized type of machine learning that uses artificial neural networks to mimic how the human brain processes information.
+- "Deep" refers to multiple layers of neurons between the input and output.
+
+⚙️ How It Works:
+- Input Layer: Receives feature vector x (e.g., [bill length, bill depth, flipper length, weight]).
+- Hidden Layers: Neurons apply weights (w) and activation functions to transform the data layer by layer.
+- Output Layer: Outputs a probability vector using functions like softmax.
+
+Example: [0.2, 0.7, 0.1] → class 1 (Gentoo) is most likely.
+
+🔁 How It Learns:
+- Forward pass: Compute predictions ŷ using current weights.
+- Loss calculation: Compare ŷ to true y using a loss function.
+- Backward pass (Backpropagation): Adjust weights using gradient descent to reduce error.
+- Repeat over many epochs until model converges (low loss, high accuracy).
+
+🧮 Why It’s Powerful:
+- Can model complex, nonlinear relationships.
+- Works well in image recognition, language translation, speech processing, etc.
+- Scales with big data and benefits from GPU acceleration.
