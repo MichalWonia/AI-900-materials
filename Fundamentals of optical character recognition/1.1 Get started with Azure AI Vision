@@ -1,0 +1,43 @@
+📖 OCR: Where Vision Meets Language
+OCR (Optical Character Recognition) is a foundational AI technology that:
+- Uses computer vision to detect characters and words in images.
+- Applies natural language processing (NLP) to interpret and make sense of the extracted text.
+
+Originally developed for tasks like postal code recognition, OCR now supports:
+- Printed and handwritten text
+- Complex layouts and visually noisy images
+- Multiple languages and fonts
+
+🔍 Azure AI Vision Read API (OCR Engine)
+Azure AI Vision's Read API is the core OCR engine that:
+- Extracts machine-readable text from:
+  - Images
+  - PDFs
+  - TIFF files
+- Is optimized for real-world images, not just scanned documents
+- Automatically selects the best recognition model based on the content
+
+Key Features:
+- Detects bounding boxes around:
+  - Pages
+  - Lines
+  - Words
+
+- Handles visual noise, mixed content, and text-heavy images
+
+- Supports printed and handwritten text detection
+
+📐 OCR Output Structure
+The output from the Read API is structured hierarchically:
+
+Level	  Description
+Page	  Contains metadata like dimensions and orientation
+Line	  A sequence of words (e.g., a sentence or title)
+Word	  Individual word with associated bounding box and text
+
+Each element includes bounding box coordinates, so you know exactly where each word or line appears on the image.
+
+This setup enables scenarios like:
+- Digitizing handwritten notes or letters
+- Extracting addresses from envelopes
+- Processing receipts, forms, or signs in photos
