@@ -1,0 +1,32 @@
+🗣️ Speech Recognition (Speech-to-Text)
+Goal: Convert spoken language (live or recorded) into written text.
+
+🔍 How it works:
+- Acoustic model: Maps audio to phonemes (basic sounds)
+- Language model: Converts phonemes to the most likely words/phrases
+- Output: Readable text transcript
+
+📌 Common Uses:
+- Live closed captioning for video
+- Meeting or phone call transcripts
+- Voice command processing (e.g., in apps or virtual assistants)
+
+🔊 Speech Synthesis (Text-to-Speech)
+Goal: Convert text into natural-sounding speech audio
+
+🔧 How it works:
+- Tokenizes text into words
+- Assigns phonemes to words
+- Organizes into speech units (phrases, sentences)
+- Applies a voice with chosen pitch, rate, and tone
+- Generates audio output
+
+📌 Common Uses:
+- Spoken responses in apps and bots
+- Voice menus for customer service
+- Accessibility tools (e.g., reading emails aloud)
+- Public announcements (e.g., train stations)
+
+Both technologies are part of Azure AI Speech Services and can be used 
+together for voice-driven applications like chatbots, virtual agents, 
+and hands-free interfaces.
