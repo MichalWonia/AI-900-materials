@@ -1,0 +1,32 @@
+📈 Regression (Supervised Learning)
+Goal: Predict a numeric value (label y) from input features (x).
+
+🛠️ Training Process Steps
+- Split the data into training and validation sets.
+- Train the model using a regression algorithm (e.g., Linear Regression).
+- Validate the model by predicting labels for the validation set.
+- Evaluate accuracy by comparing predicted values (ŷ) with actual values (y).
+
+🧊 Example Scenario: Ice Cream Sales Prediction
+- Feature (x): Temperature
+- Label (y): Number of ice creams sold
+- Model: f(x) = x - 50
+Example: If temp = 77°F → predicted sales = 77 - 50 = 27 ice creams
+
+📊 Evaluation Metrics
+- Metric	Description	Example Value
+- MAE (Mean Absolute Error)	Average of absolute errors	2.33
+- MSE (Mean Squared Error)	Mean of squared errors (penalizes big errors)	6
+- RMSE (Root MSE)	Square root of MSE (same units as label)	2.45
+- R² (Coefficient of Determination)	Proportion of variance explained (0 to 1)	0.95
+
+Higher R² = better model fit.
+Lower MAE/RMSE = more accurate predictions.
+
+🔁 Iterative Model Improvement
+- Tune:
+📊 Features
+⚙️ Algorithms (not just linear regression)
+🧮 Hyperparameters
+- Repeat training and evaluation until results are acceptable.
+
