@@ -1,0 +1,20 @@
+1. Azure AI Translator:
+- Purpose: This service supports text-to-text translation.
+- Key Features:
+  - Neural Machine Translation (NMT): It analyzes the semantic context of the text, providing more accurate and complete translations.
+  - Language Support: It supports over 130 languages. You can specify languages using ISO 639-1 
+  language codes (e.g., en for English, fr for French) or use cultural variants (e.g., en-US for American English, fr-CA for Canadian French).
+  - Multiple Translations: You can translate the same document into multiple target languages at once.
+
+Example Use Case: Translating a document from English to French, Spanish, and German simultaneously.
+
+2. Azure AI Speech:
+- Purpose: This service supports speech-to-text and speech-to-speech translation.
+- Key Features:
+  - Real-Time Translation: You can stream spoken audio (from a microphone or an audio file) and get translated text or audio.
+  - Speech Translation Scenarios: Useful for applications like real-time closed captioning or simultaneous two-way translation in a conversation.
+  - Language Support: Over 90 languages supported. You specify the source language using an extended 
+  language code (e.g., es-US for American Spanish), and for target languages, you use the two-character 
+  language code (e.g., en for English or de for German).
+
+Example Use Case: Translating live speech during an international conference or facilitating real-time conversation between two people speaking different languages.
