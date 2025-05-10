@@ -1,0 +1,24 @@
+1. Fairness:
+AI systems must be tested and trained to avoid bias and discriminatory outcomes. Human-selected data can unintentionally reflect biases.
+
+2. Reliability and Safety:
+AI systems are probabilistic, not perfect. Applications must account for errors and uncertainties, especially in critical or physical environments.
+
+3. Privacy and Security:
+Developers must protect personal or sensitive data during training and ensure trained models don’t expose private information.
+
+4. Inclusiveness:
+AI solutions should be accessible to all users, including those with disabilities or in underrepresented groups.
+
+5. Transparency:
+Users should understand how AI systems work, their limitations, and when they are interacting with AI.
+
+6. Accountability:
+Organizations are responsible for the behavior and impact of the AI systems they develop. Governance frameworks should be in place.
+
+Responsible AI Use Case Examples:
+- College admissions AI: Should be free from demographic bias.
+- Robotics with computer vision: Must use confidence thresholds to prevent physical harm.
+- Facial recognition in airports: Should delete personal data when no longer needed and protect it from unauthorized access.
+- Speech-based chatbot: Should include text alternatives to support users with hearing impairments.
+- AI in loan approval: Should disclose AI usage and the nature of the training data (without compromising privacy).
