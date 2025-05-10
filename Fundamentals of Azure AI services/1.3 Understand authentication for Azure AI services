@@ -1,0 +1,28 @@
+🔐 Authentication in Azure AI Services
+Authentication ensures that only authorized users and apps can access your AI resources. Here's how it works:
+
+📡 Key Authentication Components
+1. 🔗 Endpoint
+A unique URL for your specific AI service instance.
+
+Example: https://myaiservices29.cognitiveservices.azure.com/
+
+2.🔑 Resource Key
+A secure key (like a password) used to verify the application making the request.
+Each AI resource has two keys (primary and secondary) so one can be rotated without downtime.
+
+3. 🔐 Authentication Header
+
+When calling the API, you must include:
+- The endpoint
+- An authorization header with your resource key
+
+Example in an HTTP request: Ocp-Apim-Subscription-Key: <your-key>
+
+🧠 Behind the Scenes: Studio Interfaces
+When using Azure tools like Language Studio or Speech Studio, Azure handles authentication in the background after you sign in.
+
+✅ Key Benefits
+- Keeps services secure and private
+- Allows for key rotation to maintain security
+- Supports programmatic access through APIs
