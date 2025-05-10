@@ -1,0 +1,34 @@
+🔍 Core Concepts of Text Analytics & NLP
+🧠 1. Tokenization
+- Breaking text into tokens (words, parts of words, or punctuation).
+- Example: “we choose to go to the moon” → {we, choose, to, go, to, the, moon}.
+
+🧼 2. Text Normalization & Preprocessing
+- Normalization: lowercase, remove punctuation.
+- Stop word removal: filters out common but semantically weak words like “the”, “a”.
+- n-grams: group of words – unigram (1), bigram (2), trigram (3), etc.
+- Stemming: reducing words to their root (e.g., “powered” → “power”).
+
+📊 3. Frequency Analysis
+- Count token frequency to infer topics.
+- TF-IDF (Term Frequency - Inverse Document Frequency): finds important words in a document relative to a corpus.
+
+🤖 4. Text Classification with Machine Learning
+- Use labeled data (e.g., sentiment: positive=1, negative=0) to train models like logistic regression.
+- The model learns token-sentiment relationships.
+
+🧭 5. Semantic Language Models
+- Words are represented as vectors (embeddings) in high-dimensional space.
+- Semantically similar words (e.g., “dog” and “bark”) are closer together.
+- These embeddings support modern NLP tasks.
+
+🔧 Common NLP Tasks (powered by Azure AI Language)
+- Key phrase extraction
+- Named entity recognition
+- Sentiment analysis
+- Machine translation
+- Summarization
+- Conversational AI
+
+These tasks use language models trained on massive corpora, and you can apply them easily via the Azure AI Language service.
+
