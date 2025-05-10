@@ -1,0 +1,19 @@
+Definition:
+NLP (Natural Language Processing) is the ability of AI to analyze and derive meaning from human language (spoken or written).
+
+Model Types:
+NLP uses models trained for specific text analysis tasks. While generative AI handles many NLP tasks today, simpler NLP models can be more cost-effective for targeted use cases.
+
+Common NLP Tasks:
+- Entity Extraction: Identify mentions of people, places, organizations, etc.
+- Text Classification: Categorize documents into predefined groups.
+- Sentiment Analysis: Determine if the tone is positive, negative, or neutral.
+- Language Detection: Identify the language used in a document or sentence.
+
+NLP vs. NLU:
+NLP is often referred to interchangeably with NLU (Natural Language Understanding), especially when emphasizing comprehension.
+
+Common NLP Use Cases (AI-900 Focus):
+- Analyzing documents, transcripts, or calls to extract key entities and topics.
+- Understanding sentiment in social media posts, reviews, or news articles.
+- Powering chatbots that handle predictable, FAQ-style conversations (without needing generative AI).
