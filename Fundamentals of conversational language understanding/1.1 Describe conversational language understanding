@@ -1,0 +1,36 @@
+🧠 What is CLU?
+Conversational Language Understanding (CLU) enables you to build natural language 
+interfaces for apps like chatbots and virtual assistants. It helps applications:
+- Understand user intent
+- Extract key information (entities) from what users say
+
+🛠️ Core Concepts of CLU
+1. Utterance
+What the user says — an example input.
+Example: “Turn on the light”
+
+2. Intent
+The goal or purpose of the utterance.
+Example intent: TurnOn
+
+3. Entity
+Specific information or data in the utterance.
+Example: “light” or “fan” → both are device entities
+
+🧪 How CLU Works
+- You define multiple intents (e.g., TurnOn, TurnOff, CheckWeather)
+- For each intent, you provide sample utterances and label entities
+- Train the model to recognize intents and extract entities
+- The model generalizes and can understand variations in phrasing
+
+🛡️ Fallback Handling with None Intent
+The None intent is used when the user’s input doesn’t match any trained intent.
+This helps provide a safe, generic response and avoid confusion.
+Example: “What is the meaning of life?” → maps to None
+
+🔁 Typical Use Case Flow
+- User says something → Utterance
+- Model predicts → Intent + Entities
+- App responds → Based on matched intent
+
+CLU is a key component in making AI-powered conversations natural and useful.
