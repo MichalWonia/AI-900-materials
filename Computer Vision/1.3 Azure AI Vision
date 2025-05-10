@@ -1,0 +1,36 @@
+🌐 Overview of Azure AI Vision
+- Microsoft's Azure AI Vision offers pre-built and customizable models that leverage the Florence foundation model for computer vision tasks. 
+You can easily create solutions using ready-made models or train custom models with your own image data.
+
+Two Resource Options for Azure AI Vision:
+- Azure AI Vision: A specific resource dedicated solely to AI Vision.
+- Azure AI Services: A general resource that includes other Azure AI services like Language, Translator, etc.
+
+🔍 Image Analysis Capabilities
+Azure AI Vision allows you to perform various image analysis tasks, such as:
+1. Optical Character Recognition (OCR): Extracts text from images, like scanning a nutrition label.
+2. Caption Generation: Describes an image in a human-readable way, such as “A man jumping on a skateboard.”
+3. Object Detection: Detects and classifies thousands of objects in an image,
+providing a confidence score for each identified object and bounding box coordinates.
+4. Tagging Visual Features: Suggests descriptive tags for the image, like “sport,” “skateboarding,” or “person,” 
+along with their confidence scores.
+
+🎯 Custom Models
+If built-in models don't meet your needs, Azure AI Vision allows you to train custom models for:
+- Image Classification: Classifies an image into categories (e.g., fruit types: apple, banana, or orange).
+- Object Detection: Detects and locates multiple objects within an image (e.g., detecting multiple fruits in a photo).
+
+You can train these models with relatively few training images since they build on pre-trained foundation models.
+
+🏗️ Training Custom Models
+You can train custom models directly in Azure AI Vision to:
+- Classify images (e.g., identifying types of fruits)
+- Detect multiple objects (e.g., finding fruits in a picture)
+
+For more details, Microsoft provides comprehensive documentation for training custom models,
+though specific training procedures are outside the scope here.
+
+🌟 Benefits of Azure AI Vision
+- Quick Setup: Pre-built models let you implement solutions fast.
+- Customizable: You can enhance and personalize models based on your data and needs.
+- Flexible: Supports a wide range of vision-based tasks such as OCR, object detection, image classification, and tagging.
