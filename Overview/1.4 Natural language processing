@@ -13,7 +13,7 @@ Common NLP Tasks:
 NLP vs. NLU:
 NLP is often referred to interchangeably with NLU (Natural Language Understanding), especially when emphasizing comprehension.
 
-Common NLP Use Cases (AI-900 Focus):
+Common NLP Use Cases:
 - Analyzing documents, transcripts, or calls to extract key entities and topics.
 - Understanding sentiment in social media posts, reviews, or news articles.
 - Powering chatbots that handle predictable, FAQ-style conversations (without needing generative AI).
