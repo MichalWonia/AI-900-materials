@@ -1,0 +1,39 @@
+🧠 Azure AI Language Text Analysis Capabilities
+📌 Key Features:
+Named Entity Recognition (NER)
+- Detects names of people, places, events, etc.
+- Example: “Bill Gates” → Person, “Paris” → Location.
+
+Entity Linking
+- Adds Wikipedia URLs to disambiguate entities.
+- Example: “Seattle” → https://en.wikipedia.org/wiki/Seattle.
+
+PII Detection
+- Detects sensitive data like names, emails, SSNs, phone numbers, and PHI (Personal Health Information).
+
+Language Detection
+- Identifies dominant language in text with ISO code and confidence score.
+- Handles multilingual or ambiguous input.
+
+Sentiment Analysis & Opinion Mining
+- Scores text as positive, neutral, or negative.
+- Sentiment scores: e.g., Positive: 0.9, Neutral: 0.1, Negative: 0.0.
+- Useful for analyzing reviews, feedback, social media posts.
+
+Summarization
+- Extracts main ideas from longer text bodies.
+
+Key Phrase Extraction
+- Lists important phrases like “friendly hostess”, “great food”, etc.
+- Useful for analyzing bulk feedback or survey responses.
+
+⚙️ Creating a Resource for Azure AI Language
+To use these features, you must create an Azure resource:
+- 🧩 Language Resource: For dedicated use of AI Language only.
+- 🔗 Azure AI Services Resource: For combined use with other AI tools (Vision, Speech, etc.).
+
+These services are accessible through:
+- Azure Portal
+- REST APIs
+- SDKs (.NET, Python, JavaScript, Java)
+- Azure AI Studio UI
