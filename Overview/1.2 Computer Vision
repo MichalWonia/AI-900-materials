@@ -1,0 +1,22 @@
+Definition:
+Computer vision involves training models using large sets of images to enable them to understand and interpret visual data.
+
+Image Classification:
+A model is trained on labeled images to identify the main subject in new, unlabeled images.
+
+Object Detection:
+The model can locate specific objects within an image, not just classify the image.
+
+Semantic Segmentation:
+A more advanced technique where the model labels each pixel in an image that belongs to a specific object (more precise than bounding boxes).
+
+Multi-Modal AI:
+You can combine computer vision with language models to create multi-modal AI, blending vision and generative AI capabilities.
+
+Common Use Cases for Computer Vision:
+- Auto-captioning and tag generation for images.
+- Visual search (e.g., finding similar items based on a picture).
+- Retail inventory monitoring and self-checkout systems.
+- Security video monitoring.
+- Facial recognition for authentication.
+- Robotics and autonomous vehicles navigation.
