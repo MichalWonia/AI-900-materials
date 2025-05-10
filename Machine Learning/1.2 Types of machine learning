@@ -1,0 +1,41 @@
+1. Supervised Learning
+- Definition: Training data includes features + known labels.
+- Goal: Learn relationship between features and labels to predict future labels.
+
+Regression
+- Label is numeric (continuous value).
+  Examples:
+  - Predicting ice cream sales based on weather.
+  - Predicting house prices from features.
+  - Estimating fuel efficiency.
+
+Classification
+- Label is categorical.
+
+Binary Classification:
+- Two possible outcomes (e.g., Yes/No, 1/0).
+  Examples:
+  - Diabetes risk prediction.
+  - Loan default detection.
+  - Marketing response prediction.
+
+Multiclass Classification:
+- One label from multiple categories.
+  Examples:
+  - Penguin species classification.
+  - Movie genre prediction.
+- Also includes multilabel classification (e.g., a movie could be both comedy and sci-fi).
+
+2. Unsupervised Learning
+- No labels, only features.
+- Goal: Find patterns or groupings in data.
+
+🔘 Clustering
+- Groups similar data points into clusters.
+  Examples:
+  - Customer segmentation.
+  - Grouping flowers by characteristics.
+
+Key Difference from classification:
+- In clustering, you don’t know the categories beforehand.
+- In classification, you do know the classes and train the model on them.
