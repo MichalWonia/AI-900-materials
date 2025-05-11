@@ -1,0 +1,23 @@
+✅ Query Types
+- Simple syntax (default): Great for most use cases.
+- Full Lucene syntax: Used for advanced filters and scoring.
+
+🧱 Index Schema Matters
+- You can only search/filter/sort on fields explicitly marked as such in the index schema.
+- If a field isn’t marked as searchable, it won't be searched even if included in the query.
+
+💬 Sample Simple Query
+coffee (-"busy" + "wifi")
+- Looks for documents with "coffee"
+- Excludes those containing "busy"
+- Includes those containing "wifi"
+
+💡 Example API Query (REST)
+
+GET https://[your-search-service].search.windows.net/indexes/[index-name]/docs?api-version=2023-07-01&search=coffee
+api-key: [your-query-key]
+
+You can expand this query with parameters like:
+- $filter (e.g., $filter=price lt 10)
+- $orderby (e.g., $orderby=rating desc)
+- $select (to choose which fields to return)
