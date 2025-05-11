@@ -1,0 +1,40 @@
+📋 Improving Prompt Results: Best Practices
+1 .Start with a Specific Goal
+Be clear about what you want the AI to do. For example, instead of just saying, 
+"Summarize the document," specify the tone, length, and format, e.g., 
+"Summarize the key considerations for adopting Copilot in no more
+than six bullet points with a professional tone."
+
+2. Provide a Source
+Including a source ensures that the AI’s response is 
+grounded in specific, relevant information. 
+This could be a document, a database, or even prior responses.
+
+3. Add Context
+The more context you give, the more tailored and 
+relevant the output will be. For example, 
+if you're asking for business advice, provide details about 
+the company, the industry, or the decision-makers involved.
+
+4. Set Clear Expectations
+Let the AI know the format you want. 
+This might include length (e.g., a 200-word summary), 
+style (e.g., formal, concise), or any other specific 
+instructions for how the information should be presented.
+
+5. Iterate Based on Responses
+After getting an initial response, refine your prompts 
+and give feedback to narrow the AI's focus. 
+This iterative process improves the outcome by fine-tuning what you're asking.
+
+⚙️ How AI Prompts Are Enhanced
+In most cases, the system does more than just send your prompt as-is to the language model:
+- System Messages: These guide how the model should behave, e.g., "Respond in a friendly, professional manner."
+- Conversation History: Helps maintain context, ensuring responses are relevant and coherent across the conversation.
+- Optimized Prompting: The agent can enhance your prompt by refining wording or adding extra context to improve accuracy.
+
+🧑‍💻 What is Prompt Engineering?
+- Definition: The process of refining and improving the 
+prompts given to AI, either by developers or users, to get the most effective responses.
+- Why It Matters: With clear, well-structured prompts, 
+you can unlock more meaningful, precise, and relevant AI-generated content.
