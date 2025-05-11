@@ -1,0 +1,42 @@
+🌐 Improving Performance and Trustworthiness
+1. Grounding Data
+- Definition: Ensuring AI responses are aligned with reliable and 
+contextual data sources, like databases, domain knowledge, or real-time information.
+- Purpose: This ensures that responses are factual and contextually relevant.
+- Example: Linking the model to real-time databases to pull updated data.
+
+2. Retrieval-Augmented Generation (RAG)
+- Definition: Enhancing a language model by connecting it to proprietary databases, 
+allowing the model to retrieve domain-specific and up-to-date information for more accurate responses.
+- Purpose: Useful for applications like customer support or knowledge 
+management, where access to dynamic data is critical.
+
+3. Fine-Tuning
+- Definition: Refining a pre-trained model with a smaller, 
+task-specific dataset to tailor it for particular tasks or domains.
+- Purpose: Improves the model's accuracy and specialization, 
+making it better suited to specific industries or applications (e.g., healthcare, finance).
+
+4. Security and Governance Controls
+- Definition: Setting up rules and frameworks to ensure safe usage of AI systems, 
+focusing on access control, authentication, and data management.
+- Purpose: Prevents the model from generating inaccurate or unauthorized 
+content and ensures secure handling of data.
+
+📊 Metrics to Measure Response Quality
+To evaluate the quality of AI responses, consider these key dimensions:
+
+1. Performance and Quality Evaluators
+- Measures the accuracy, groundedness, and relevance of the generated content.
+
+2. Risk and Safety Evaluators
+- Focuses on the safety of the output, ensuring that the system does not generate harmful, biased, or inappropriate content.
+
+3. Custom Evaluators
+- Industry-specific metrics are used to meet the unique needs of different sectors (e.g., finance, healthcare, etc.).
+
+🌱 Planning for Responsible AI Use
+The key takeaway from this section is the importance of combining quality control,
+real-time data, and safe usage protocols to improve the performance and reliability 
+of AI systems while minimizing risks. Services like Azure AI Foundry provide frameworks 
+to help facilitate these workflows.
