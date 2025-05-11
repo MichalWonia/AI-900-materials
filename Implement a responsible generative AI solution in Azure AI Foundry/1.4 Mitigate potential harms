@@ -1,0 +1,55 @@
+🔧 1. Model Layer
+What it is: The foundational AI model (e.g., GPT-4) powering your solution.
+
+Mitigation Strategies:
+- Model selection: Use the simplest model that meets your needs to reduce unnecessary complexity and risk.
+- Fine-tuning: Customize the model with domain-specific data to increase relevance and reduce off-topic or risky responses.
+- Versioning: Stay updated with newer, safer versions of models that include behavior improvements and reduced harmful outputs.
+
+🛡️ 2. Safety System Layer
+What it is: Built-in platform-level controls that filter, detect, or block harmful content.
+
+Mitigation Strategies:
+- Content filters: Configure severity thresholds (e.g., low/medium/high) for categories 
+like hate, sexual content, violence, or self-harm.
+- Abuse detection: Monitor for excessive or automated abuse patterns (e.g., bot attacks) that 
+may elicit harmful outputs.
+- Alerting mechanisms: Set up alerts and monitoring tools to flag harmful use in real time 
+for human review or automatic intervention.
+
+💡 In Azure AI Foundry, these tools are built in and configurable at the system level.
+
+✍️ 3. System Message and Grounding Layer
+What it is: The way you structure prompts and steer the model’s behavior.
+
+Mitigation Strategies:
+- System prompts: Include behavioral guidelines like "Respond in a respectful, inclusive manner."
+- Grounding: Use prompt engineering to inject verified facts or constraints.
+- RAG (Retrieval-Augmented Generation): Retrieve information from trusted sources (e.g., internal documents or databases)
+to reduce hallucination and improve factual accuracy.
+
+Example:
+“Using only company policy documents, answer the user’s question about time-off eligibility.”
+
+🧑‍💻 4. User Experience Layer
+What it is: The front-end interface, including UI, UX, and user-facing documentation.
+
+Mitigation Strategies:
+- Input/output validation: Restrict or pre-validat
+e input formats (e.g., prevent code injections or malicious phrasing).
+- Scoped UI controls: Use dropdowns, templates, or guided interactions
+to steer users into safe query structures.
+- Transparent documentation: Clearly state what the AI can and
+can’t do, including limitations, potential biases, or edge-case risks.
+
+🔁 Re-test and Monitor
+After applying mitigations, retest your system using your harm measurement
+framework and compare new results against your baseline. 
+This iterative loop ensures your solution remains effective and responsible over time.
+
+📌 Summary Table
+Layer	    Example Mitigation
+Model	    Use fine-tuning to scope responses
+Safety    System	Apply Azure content filters
+System    Message/Grounding	Use system prompts & RAG
+User      Experience	Add input validation & transparency
