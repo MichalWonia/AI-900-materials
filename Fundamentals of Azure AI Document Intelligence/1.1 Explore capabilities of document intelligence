@@ -1,0 +1,24 @@
+What is Document Intelligence?
+Document intelligence uses machine learning (ML) to extract structured data from documents such as receipts, forms, and invoices. It focuses on:
+- Text Extraction
+- Layout Analysis
+- Key-Value Pair Identification
+- Bounding Box Localization (to determine where text appears on a page)
+
+🧠 How Does It Work?
+- ML models recognize patterns in text and spatial layout.
+- Example: A receipt might show Address: 123 Main Street, and the model identifies:
+  - Key: Address
+  - Value: 123 Main Street
+  - Bounding box: Coordinates of the text on the document image
+
+🧾 Handling Different Document Types
+- Documents vary in format, so different models may be required:
+  - Use prebuilt models for common documents (e.g., IDs, receipts, invoices).
+  - Train custom models for specific formats your business uses.
+
+💼 Why Use It?
+- Accelerates operations by automating data entry
+- Improves accuracy and reduces manual errors
+- Enhances customer experiences with faster processing
+- Enables better decisions with structured, analyzable data
