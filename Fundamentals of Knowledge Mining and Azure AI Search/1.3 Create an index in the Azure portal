@@ -1,0 +1,38 @@
+🧭 Step-by-Step: Create a Search Index in Azure Portal
+1. Provision an Azure AI Search Resource
+- Go to https://portal.azure.com
+- Click "Create a resource"
+- Search for "Azure AI Search"
+- Click Create, then fill out:
+  - Subscription
+  - Resource group
+  - Name
+  - Region
+  - Pricing tier (start with Free for testing)
+- Click Review + create, then Create
+
+2. Open the Import Data Wizard
+- Once the resource is deployed, go to your Azure AI Search resource
+- Click Import data at the top of the Overview page
+
+3. Choose a Data Source
+- Select an existing Azure Storage account, SQL Database, or other source
+- Provide necessary connection information and credentials
+- Select the container, table, or collection where your data is stored
+
+4. Define the Index
+- The wizard analyzes your data and suggests field names and types
+- You can customize:
+  - Field names
+  - Field data types (Edm.String, Edm.Double, etc.)
+  - Attributes like searchable, filterable, sortable, facetable
+
+5. Configure Indexer and AI Enrichment (Optional)
+- Decide if you want to use AI enrichment (OCR, sentiment, language detection, etc.)
+- Configure or skip adding a skillset
+- Name and schedule your indexer (run once or on a schedule)
+
+6. Review and Create
+- Review all settings for Data Source, Index, Indexer, and optional Skillset
+- Click Create
+
