@@ -1,0 +1,28 @@
+💡 What is Azure AI Document Intelligence?
+It’s a cloud-based service that uses machine learning to extract structured data from unstructured documents. The capabilities are grouped into:
+- Document Analysis – General extraction of text, layout, and relationships.
+- Prebuilt Models – Pretrained for common document types (e.g., receipts, invoices, IDs).
+- Custom Models – Trained for your own document formats, including:
+  - Custom neural model
+  - Custom generative AI model
+  - Classification models
+
+📦 Prebuilt Model Examples
+These models are trained to extract specific fields with high accuracy and include 
+confidence scores for each extracted field. 
+Document types supported include:
+- Receipts – Extracts merchant name, date, line items, totals, etc.
+- Invoices – Extracts vendor, customer, tax, amounts, etc.
+- IDs – Extracts name, DOB, ID number, and more.
+- Contracts – Pulls out parties, terms, and agreement details.
+- Tax Forms & Mortgages – Captures standardized financial data.
+
+Each field's confidence score can guide automated workflows or human review.
+
+🚀 How to Get Started
+Create a resource in Azure:
+- Choose Azure AI Document Intelligence or Azure AI Services
+- Free tier is available (limited to 2 pages per PDF/TIFF)
+- Use tools to interact:
+  - Document Intelligence Studio – No-code UI for testing models
+  - Azure AI Foundry portal – Platform for enterprise AI workflows and custom development
