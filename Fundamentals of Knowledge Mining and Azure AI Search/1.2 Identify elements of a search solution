@@ -1,0 +1,54 @@
+🔁 Azure AI Search Indexing Pipeline Overview
+1. 📁 Data Source
+- Where your content lives: Azure Blob Storage, Azure SQL, Cosmos DB, etc.
+- Examples: PDFs, images, Office docs, videos.
+
+2. ⚙️ Indexer
+- Automates data extraction and flow into the search index.
+- Converts documents to JSON format via serialization.
+- Manages the processes of document cracking and enrichment.
+
+3. 📂 Document Cracking
+- The indexer “opens” files and extracts raw content like:
+- Text from PDFs
+- Metadata
+- Embedded images or tables
+
+4. 🧠 Enrichment (Optional)
+- Applies AI Skills via a skillset.
+- Extracts meaningful information like:
+  - Sentiment
+  - Language translation
+  - Key phrases
+  - Image captions (OCR)
+- Outputs can also be saved in a knowledge store for further use.
+
+5. 📤 Push to Index
+- Transformed and enriched data is loaded into the search index.
+
+🔎 Search Index Structure (Schema)
+A search index is like a structured database table. It defines:
+- Fields: e.g., title, description, price, tags
+- Data Types: e.g., Edm.String, Edm.Int32, Edm.Boolean
+- Field Attributes:
+  - searchable: full-text search is enabled
+  - filterable: can be used in filters
+  - sortable: can be sorted
+  - facetable: can group/search by categories
+  - retrievable: included in results
+
+🧾 Example Search Index Schema:
+{
+  "name": "products-index",
+  "fields": [
+    { "name": "id", "type": "Edm.String", "key": true, "filterable": true },
+    { "name": "title", "type": "Edm.String", "searchable": true },
+    { "name": "description", "type": "Edm.String", "searchable": true },
+    { "name": "price", "type": "Edm.Double", "filterable": true, "sortable": true },
+    { "name": "category", "type": "Edm.String", "facetable": true, "filterable": true }
+  ]
+}
+
+🧪 After That?
+Once indexed, users can run queries like "espresso machine under $100" and Azure 
+AI Search will return the most relevant results from your content.
