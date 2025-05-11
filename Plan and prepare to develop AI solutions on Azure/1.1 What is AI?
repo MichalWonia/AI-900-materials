@@ -1,0 +1,89 @@
+What is AI?
+
+Artificial Intelligence (AI) refers to a broad field of software 
+capabilities that allow applications to simulate human-like behavior. 
+This can include recognizing patterns, interpreting data, making decisions, 
+and responding to inputs in ways that seem intelligent. Over the years, 
+AI has evolved, and its definition has expanded as the technology advances.
+
+In modern AI, machine learning models form the foundation, enabling applications 
+to understand large datasets and generate responses or predictions. 
+These models encapsulate patterns and relationships within data, allowing AI 
+systems to interpret various types of inputs—such as text, images, or speech—and provide intelligent, context-aware outputs.
+
+Common AI Capabilities
+1. Generative AI
+
+Description: The ability to generate original responses to prompts. 
+For instance, software can automatically create product descriptions or marketing copy.
+
+Example: A real estate business uses generative AI to write property 
+descriptions based on input like location, size, and features.
+
+2. Agents
+
+Description: AI agents can respond autonomously to user 
+input or assess situations and take appropriate actions.
+
+Example: An executive assistant agent that can find the 
+location of a meeting or book a taxi for you.
+
+3. Computer Vision
+
+Description: The ability to process visual inputs 
+such as images, videos, and live streams.
+
+Example: Automated checkout systems that use computer 
+vision to recognize items in a cart without scanning barcodes.
+
+4. Speech Recognition and Synthesis
+
+Description: The ability to recognize and generate speech, 
+enabling voice-driven applications.
+
+Example: Digital assistants like Siri or 
+Alexa that process spoken input and respond with verbal answers.
+
+5. Natural Language Processing (NLP)
+
+Description: AI's ability to understand and process natural language, 
+whether written or spoken, to extract meaning or generate responses.
+
+Example: Sentiment analysis of social media posts to
+determine public opinion about a brand.
+
+6. Information Extraction
+
+Description: Extracting useful information from unstructured content, 
+including documents, images, or speech.
+
+Example: An expense management system that extracts details from 
+receipts, such as purchase date and total cost.
+
+7. Decision Support
+
+Description: Using historical data and patterns to 
+assist in making predictions or business decisions.
+
+Example: Real estate market analysis that uses 
+demographic data to predict property prices.
+
+Generative AI
+Generative AI is a cutting-edge area within AI that leverages 
+language models to generate text, speech, or even images based on 
+natural language prompts. These models can be large language models (LLMs),
+which are trained on vast datasets and include millions or billions of parameters, 
+or small language models (SLMs), optimized for specific tasks with fewer resources.
+
+Generative AI is particularly useful for applications like:
+- Conversational apps: Building chatbots or virtual assistants.
+- Content creation: Automating writing, marketing copy, or even creating music.
+- Task automation: Automating repetitive tasks by responding to user queries.
+
+Generative models increasingly work with multi-modal inputs and outputs, 
+meaning they can handle not only text but also images, speech, or code.
+
+In summary: AI includes a wide variety of capabilities, from generative tasks like content 
+creation to specialized functions like speech recognition and decision support. 
+By selecting the right AI capabilities for your application, you can tailor solutions 
+that make your software smarter and more efficient.
