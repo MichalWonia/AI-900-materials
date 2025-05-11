@@ -1,0 +1,28 @@
+🏗️ Foundation Models: Pretrained Building Blocks
+- Definition: Pretrained models trained on massive, diverse datasets.
+- Use: Can be used out-of-the-box or fine-tuned for a specific task/domain.
+- Sources:
+  - Open-source (e.g., Hugging Face, EleutherAI)
+  - Proprietary (e.g., OpenAI models via Azure, OpenAI API)
+
+🛠️ Common Tasks for Language Models
+- Text classification (e.g., spam detection)
+- Token classification (e.g., named entity recognition)
+- Question answering
+- Summarization
+- Translation
+
+You can choose a model depending on your task, the model's training data, 
+and your tolerance for risks (e.g., bias, hallucination).
+
+📏 LLMs vs. SLMs: Choose by Use Case
+Feature	              Large Language Models (LLMs)	                    Small Language Models (SLMs)
+Data scale	          Trained on massive, general-purpose datasets	    Trained on smaller, often specialized datasets
+Model size	          Billions to trillions of parameters	              Fewer parameters
+Strengths	            Broad language understanding and generation	      Fast, efficient, focused performance
+Deployment	          Best for cloud-based apps	                        Suitable for on-device or edge computing
+Fine-tuning	          Expensive and time-consuming	                    More accessible for smaller teams and budgets
+
+🎯 Choosing the Right Model
+- Use LLMs when you need broad capabilities (like multi-turn conversations or creative writing).
+- Use SLMs for fast, domain-specific tasks or if you're targeting edge devices with limited compute.
