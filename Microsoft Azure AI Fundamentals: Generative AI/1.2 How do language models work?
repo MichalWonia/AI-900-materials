@@ -1,0 +1,34 @@
+🧩 How Language Models Work
+Language models are AI systems trained to understand and
+generate human language. 
+Their capabilities rely on a few critical components:
+
+1. Tokenization – Turning Text into Numbers
+- Text is split into tokens (words or subwords).
+- Common or unimportant words (like “the”, “a”) might be removed (stop word removal).
+- Each token is mapped to a unique number so the model can process it.
+
+🔠 Example:
+"Van Gogh was a painter" → [Van, Gogh, was, a, painter] → [123, 456, 789, 12, 345]
+
+2. Word Embeddings – Capturing Meaning and Relationships
+- Tokens are converted into vectors (multidimensional arrays of numbers).
+- These vectors are placed in an embedding space where similar meanings are closer together.
+
+📐 Example:
+“puppy” and “dog” might point in similar directions, showing they’re semantically related.
+
+3. Model Architectures – Understanding Context
+
+🧠 Recurrent Neural Networks (RNNs)
+- Process one token at a time, remembering past inputs via a hidden state.
+- Struggles with long sentences—important info (like a subject at the beginning) can get "forgotten" or diluted.
+
+🛠️ Limitations of RNNs
+- Hard to prioritize relevant info.
+- Performance degrades as sentences get longer.
+
+🧬 Why Does This Matter?
+Each development—tokenization, embeddings, and improved architectures—allowed 
+language models to move from understanding simple patterns to 
+truly understanding context, relationships, and meaning.
