@@ -1,0 +1,41 @@
+🧩 Core Components of an Azure AI Agent
+
+Model -	The foundational LLM used to generate natural language responses. 
+Options include OpenAI models (like GPT-4) and others available via Azure AI Foundry's model catalog.
+Knowledge	- External data sources that ground the agent's responses.
+
+📚 Knowledge Sources
+These are the data sources the agent uses to ground its responses:
+- Azure AI Search indexes – Structured search data from your own content.
+- Bing Search – Live web search results from Microsoft Bing.
+- Uploaded documents – Files like PDFs or text that users upload to the conversation.
+- Custom data integrations – Your own databases, APIs, or storage systems connected to the agent.
+
+🛠 Tools
+These are programmatic functions the agent can use to perform actions or generate dynamic content:
+- Search tools – Let the agent look up information using Bing or Azure AI Search.
+- Code Interpreter – Allows the agent to write and execute Python code.
+- Custom tools – Your own tools built with:
+  - Azure Functions
+  - REST APIs
+  - Any logic you define
+
+💬 Thread
+A thread is the ongoing conversation between the user and the agent. It keeps track of:
+- Dialogue history – All previous messages exchanged.
+- Uploaded files – Documents and assets shared during the session.
+- Tool outputs – Results from any tools used (e.g., code results).
+- Conversation state – Any context or memory carried across the interaction.
+
+🧪 Development Options
+- Visual Agent Development: Use the Azure AI Foundry portal with
+a playground interface to build, configure, and test agents using a GUI.
+
+- Code-First Development: Use the Azure AI Foundry SDK for full control over agent logic,
+orchestration, and integration into production systems.
+
+✅ Key Benefits
+- Seamless integration with Azure AI ecosystem.
+- Built-in safety and compliance features.
+- Easily extensible through custom tools and plugins.
+- Designed for both business users and professional developers.
