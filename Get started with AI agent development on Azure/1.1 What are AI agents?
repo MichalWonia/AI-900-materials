@@ -1,0 +1,33 @@
+AI agents are intelligent software systems that combine generative AI models, 
+contextual data, and automation capabilities to perform tasks on behalf of users. 
+They are designed not just to generate responses, but to act—making decisions, 
+retrieving information, and even initiating or completing real-world actions.
+
+🔍 Key Characteristics of AI Agents:
+1. Context-aware
+They use internal and external data (e.g., documents, user history, or environmental inputs) 
+to understand the context in which they're operating.
+
+2. Generative capabilities
+They use models like GPT-4 to interpret user prompts 
+and produce natural language responses or actions.
+
+3. Task automation
+Beyond answering questions, agents can take actions like submitting forms, 
+triggering workflows, or coordinating with APIs.
+
+🧾 Example: Expense Claim AI Agent
+An AI agent designed to handle expense claims could:
+- Use corporate policy documents to answer employee questions.
+- Use rules and history to automatically submit recurring claims.
+- Route submissions to the correct approvers.
+
+✈️ Multi-Agent Example: Travel Booking + Expense Agent
+In a more advanced setup:
+- A travel booking agent books flights and hotels.
+- It passes cost data to the expenses agent, which files a claim.
+- The result: a coordinated system of AI agents completing multi-step business workflows.
+
+🧠 In Summary:
+AI agents are action-oriented, intelligent assistants that go beyond passive chat to drive business processes. 
+They represent a key evolution from simple chatbots to autonomous, task-capable digital coworkers.
