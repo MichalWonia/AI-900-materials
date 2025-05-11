@@ -1,0 +1,58 @@
+1. Map Potential Harms
+Goal: Identify the types of harms your generative AI solution could cause.
+
+Key Considerations:
+- Content harms: Could the model generate misinformation, offensive content, or unsafe outputs?
+- Fairness and bias: Could the model output reflect or amplify harmful stereotypes?
+- Privacy risks: Could generated content include or infer private or sensitive information?
+- Misuse: Could your system be exploited for harmful or unintended purposes?
+
+Action Steps:
+- Conduct a harm assessment workshop with stakeholders (technical, legal, ethical, domain experts).
+- Create a risk register that documents possible harms specific to your use case.
+
+2. Measure the Presence of Harms
+Goal: Evaluate whether and how often your solution produces harmful outputs.
+
+Key Considerations:
+- Develop a harm taxonomy relevant to your domain (e.g., toxicity, misinformation, bias).
+- Use automated tools and human review to test outputs against the harm criteria.
+- Perform scenario-based evaluations using representative prompts.
+
+Action Steps:
+- Build test sets with prompts that probe known areas of risk.
+- Use metrics or scoring frameworks to measure harm frequency and severity (e.g., toxicity scores, fairness audits).
+
+3. Mitigate Harms
+Goal: Reduce the likelihood and impact of harms in your generative AI system.
+
+Key Mitigation Layers:
+- Model layer: Choose models with built-in safety controls (e.g., fine-tuned models, content filters).
+- System layer: Apply guardrails such as output filtering, prompt validation, and user access control.
+- UX layer: Provide clear disclosures, usage instructions, and opt-out mechanisms.
+- User feedback: Allow users to report problematic content or behavior.
+
+Action Steps:
+- Implement real-time content moderation.
+- Fine-tune or prompt-engineer models to reduce sensitivity to high-risk inputs.
+- Use reinforcement learning from human feedback (RLHF) where feasible.
+
+4. Manage the Solution Responsibly
+Goal: Ensure the solution is ready for deployment and managed sustainably post-launch.
+
+Key Considerations:
+- Have a clear governance plan for who owns risk decisions.
+- Define roles and responsibilities for monitoring, incident response, and model updates.
+- Create a user communication plan to explain limitations and obtain informed consent.
+
+Action Steps:
+- Set up an ongoing risk monitoring system and response workflow.
+- Publish transparency documentation (e.g., model cards, data usage, limitations).
+- Review and update the system based on user feedback and emerging risks.
+
+Summary of the 4 M’s Framework:
+- Stage	Purpose	Key Focus Areas
+- Map	Identify risks	Bias, safety, misuse, privacy
+- Measure	Evaluate system performance	Testing outputs, harm frequency
+- Mitigate	Reduce risks across all system layers	Model tuning, filters, user education
+- Manage	Deploy and operate responsibly	Governance, monitoring, transparency
