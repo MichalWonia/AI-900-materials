@@ -1,0 +1,51 @@
+1. Identify Potential Harms
+Understand the specific risks posed by your generative AI system based on:
+- The models and services you're using (e.g., GPT-4 via Azure OpenAI).
+- Any fine-tuning, grounding data, or system-specific configurations.
+- Use-cases and intended functionality.
+
+Common examples of harms:
+- Offensive or discriminatory content
+- Misinformation or factual inaccuracies
+- Encouraging illegal, harmful, or unethical behavior
+
+Recommended actions:
+- Review official documentation (e.g., GPT-4 system cards, transparency notes).
+- Use tools like the Microsoft Responsible AI Impact Assessment Guide to evaluate and log potential harms.
+
+2. Prioritize Identified Harms
+Rank harms based on:
+- Likelihood of occurrence
+- Impact severity
+
+Example decision factors:
+- Potential misuse vs. intended use
+- Sensitivity of the application context (e.g., food safety vs. security threats)
+
+Tip: Engage stakeholders including legal, ethical, and domain experts to guide prioritization.
+
+3. Test and Verify Harms
+Once prioritized, simulate real-world use and test for actual harm emergence.
+
+Best practice: Use red team testing:
+- Simulate malicious or adversarial user behavior
+- Attempt to trigger unsafe, biased, or otherwise harmful outputs
+- Explore edge cases (e.g., asking for toxic advice, biased prompts, manipulation)
+
+Goal: Determine conditions under which harms manifest and validate your harm assumptions.
+
+4. Document and Share Harms
+Keep a living record of:
+- Verified harms (including descriptions, triggers, and severity)
+- Red team results
+- Risk decisions and rationale
+
+Share findings with:
+- Internal stakeholders (product teams, policy leads)
+- Governance/compliance bodies
+- Documentation consumers (e.g., via model/system cards)
+
+✅ Final Takeaway
+Mapping harms isn’t a one-off task—it’s a continuous process embedded in the lifecycle of AI development. 
+Identifying, prioritizing, validating, and documenting potential harms early ensures your 
+generative AI system is built with safety, fairness, and accountability in mind.
