@@ -1,0 +1,30 @@
+🧠 What is Generative AI?
+Generative AI is a category of artificial intelligence focused on creating
+new content rather than just analyzing existing data.
+It uses language models or multimodal models to generate:
+- 📝 Text (e.g., essays, emails, code)
+- 🎨 Images (e.g., logos, illustrations)
+- 🧑‍💻 Code (e.g., scripts, programs)
+- 🗣️ Speech or audio (via voice cloning or synthesis)
+- 📊 Data or summaries (like reports from raw inputs)
+
+🔍 Examples of Generative AI in Action
+- Text: "Write a resume for a project manager" → returns a formatted resume.
+- Image: "Design a logo for a tech startup" → returns an AI-generated logo.
+- Code: "Generate JavaScript to create a countdown timer" → outputs working code.
+
+⚙️ Types of Generative AI Applications
+Type                        Description	                                            Example
+Ready-to-use	              No code needed; plug-and-play tools.	                  Bing Chat, ChatGPT
+Extendable	                Customize with your own data.	                          Microsoft Copilot with your documents
+Build from foundation	      Fully custom assistants built from a base model.	      Using Azure OpenAI to build your own agent
+
+🤖 What Are AI Agents?
+Agents are advanced generative AI applications that don’t just generate responses—they can take actions. For example:
+- Booking a ride
+- Scheduling a meeting
+- Sending emails based on context
+
+🧰 Tools from Microsoft
+- Microsoft Copilot Studio: Extend Copilot with your data or workflows.
+- Azure AI Foundry: Develop generative AI solutions from models (like OpenAI, Meta, etc.).
