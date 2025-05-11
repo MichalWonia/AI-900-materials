@@ -1,0 +1,88 @@
+Developer Tools and SDKs for AI Development on Azure
+
+When developing AI solutions using Azure AI Foundry,
+developers have access to a wide range of tools and environments 
+to help with writing, testing, and deploying code. 
+The choice of tools and SDKs depends on the developer's preferred languages, 
+frameworks, and development environments.
+
+Development Tools and Environments
+1. Visual Studio vs. Visual Studio Code:
+Developers can choose between different development 
+environments based on their preferences and the nature of their projects:
+
+Visual Studio: Ideal for developers working with the .NET Framework and 
+Windows applications. It's a feature-rich IDE with deep integration for Microsoft technologies.
+
+Visual Studio Code (VS Code): A lightweight, open-source code editor,
+perfect for developers working across a range of programming languages 
+and frameworks. VS Code supports various extensions and 
+integrates well with Azure AI Foundry.
+
+VS Code in Azure AI Foundry:
+Within the Azure AI Foundry portal, developers can use VS Code 
+containers to access pre-configured development environments that include 
+all the SDKs and packages required for building AI applications on Azure. 
+This setup is beneficial because it eliminates the need for developers 
+to manually configure environments.
+
+Tip: When using the VS Code container image in Azure AI Foundry, remember to account 
+for the cost of compute resources and the available quota to support developers.
+
+2. GitHub and GitHub Copilot:
+GitHub is widely used for version control and collaborative development. 
+Both Visual Studio and VS Code integrate natively with GitHub, making it 
+easy to manage repositories, track changes, and collaborate on code.
+
+GitHub Copilot: An AI-powered code assistant integrated into GitHub 
+and supported in both Visual Studio and VS Code. Copilot can suggest 
+code snippets, help with documentation, and provide context-aware 
+suggestions to improve productivity.
+
+Programming Languages, APIs, and SDKs
+Azure AI Foundry supports a wide array of programming languages and frameworks, 
+allowing developers to use their preferred tools while leveraging Azure AI services.
+
+1. Programming Languages:
+C#, Python, Node.js, TypeScript, and Java are common programming languages 
+supported for AI development in Azure. Python, in particular, 
+is widely used for AI and machine learning tasks.
+
+2. Azure AI Foundry SDK:
+The Azure AI Foundry SDK is essential for developers working with Azure AI Foundry. 
+It allows developers to connect to their Azure AI Foundry projects, access resource connections, 
+and interact with the resources within those projects.
+
+3. Azure AI Services SDKs:
+To consume Azure AI services (e.g., Azure OpenAI, Azure AI Vision), 
+developers will use service-specific SDKs for different programming
+languages and frameworks. These SDKs simplify interacting with
+Azure AI services by abstracting the complexities of REST APIs.
+
+4. Azure AI Agent Service:
+The Azure AI Agent Service allows developers to create intelligent 
+agents and integrate them into frameworks such as AutoGen and Semantic Kernel. 
+This service is accessible through the Azure AI Foundry SDK and is used 
+to build advanced AI agent solutions.
+
+5. Prompt Flow SDK:
+Prompt Flow is a tool for orchestrating the logic behind interactions with generative AI models. 
+The Prompt Flow SDK enables developers to define the flow of prompts and responses, 
+making it easier to build applications that rely on generative AI capabilities.
+
+Integration and Workflow:
+By using the Azure AI Foundry SDKs, developers can seamlessly integrate different 
+Azure AI services, build AI models, and manage resources within their Azure environment. 
+Developers can use these tools and SDKs to:
+- Connect to Azure AI Foundry projects.
+- Develop AI applications by utilizing AI models and services.
+- Orchestrate prompt flows and interactions with generative AI models.
+- Manage resources and access control at the hub and project levels.
+
+Conclusion
+Azure provides a broad ecosystem of tools, SDKs, and environments for building AI solutions. 
+Whether you're using Visual Studio, VS Code, or working with GitHub Copilot to assist with coding,
+Azure AI Foundry ensures that you have the necessary resources to develop, test, and deploy
+your AI applications efficiently. By leveraging the Azure AI Foundry SDK, AI Services SDKs, 
+and other tools like Prompt Flow, you can streamline the development of sophisticated
+AI-powered solutions on Azure.
